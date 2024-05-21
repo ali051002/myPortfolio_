@@ -1,0 +1,26 @@
+.projects h1{
+    grid-column: 1 / -1;
+    text-align: center;
+    margin-bottom: 24px;
+    padding: 0px 30px;
+    font-size: 80px;
+    font-weight: 600;
+}
+
+.projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 16px;
+    padding: 16px;
+    justify-items: center;
+    justify-content: center;
+  }
+
+  @media(max-width=768px){
+
+    .projects h1{
+        font-size: 10px;
+        padding: 0;
+    }
+  }
+
